@@ -1,9 +1,184 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "games": [
+    {
+      "id": "1",
+      "title": "Elder Scrolls V: Skyrim",
+      "price": 59.99,
+      "releaseYear": 2011,
+      "genre": "RPG",
+      "poster": "https://m.media-amazon.com/images/I/51v1IWrWhPL._AC_UF894,1000_QL80_.jpg",
+      "description": "An open-world action RPG set in the northern region of Tamriel, filled with dragons, dungeons, and expansive quests.",
+      "trailer": "//www.youtube.com/embed/JSRtYpNRoN0?si=UhJrcJbv7QLS_NhV"
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt",
+      "price": 39.99,
+      "releaseYear": 2015,
+      "genre": "RPG",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
+      "trailer": "https://www.youtube.com/embed/c0i88t0Kacs?si=hSJX40iI4xbQBFq3",
+      "description": "A story-driven open-world game where you play as Geralt of Rivia, a monster hunter in search of his adopted daughter.",
+      "id": "2"
+    },
+    {
+      "title": "Cyberpunk 2077",
+      "price": 59.99,
+      "releaseYear": 2020,
+      "genre": "Action RPG",
+      "poster": "https://digital.datablitz.com.ph/cdn/shop/products/DATABLITZ_CyberPunk.png?v=1672379201",
+      "trailer": "https://www.youtube.com/embed/8X2kIfS6fb8?si=R3uRKFXZ-nTUBfc3",
+      "description": "An action RPG set in the dystopian future of Night City, where players can customize their character and explore a massive urban environment.",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "title": "Red Dead Redemption 2",
+      "price": 69.99,
+      "releaseYear": 2018,
+      "genre": "Action-Adventure",
+      "poster": "https://assets.vg247.com/current//2018/05/red_dead_redemption_2_cover_art_1.jpg",
+      "description": "A Western-themed action-adventure game set in an open-world environment where you follow the story of Arthur Morgan, an outlaw in decline.",
+      "trailer": "https://www.youtube.com/embed/gmA6MrX81z4?si=P79Ntdp2VvWrcdpf"
+    },
+    {
+      "id": "6",
+      "title": "Hades",
+      "price": 24.99,
+      "releaseYear": 2020,
+      "genre": "Rogue-like",
+      "poster": "https://www.rpgfan.com/wp-content/uploads/2020/08/Hades-Cover-Art.jpg",
+      "description": "A rogue-like dungeon crawler where you play as Zagreus, attempting to escape from the underworld, battling through a series of procedurally generated levels.",
+      "trailer": "https://www.youtube.com/embed/Bz8l935Bv0Y?si=PZNEJVP3wYtGmS3G"
+    },
+    {
+      "title": "Fortnite",
+      "price": 19.99,
+      "releaseYear": 2017,
+      "genre": "Battle Royale",
+      "poster": "https://assetsio.gnwcdn.com/co2ekt.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp",
+      "trailer": "https://www.youtube.com/embed/WJW-bzXZM8M?si=zUkVJ2kt-KGa7_Tx",
+      "description": "A battle royale game where up to 100 players fight to be the last one standing, featuring building mechanics and a wide range of skins and customization options.",
+      "id": "7"
+    },
+    {
+      "id": "8",
+      "title": "Grand Theft Auto V",
+      "price": 29.99,
+      "releaseYear": 2013,
+      "genre": "Action-Adventure",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnhz1_T2eH2uaoadDVjiKNpIKUaBNu9MoVkw&s",
+      "description": "An open-world action-adventure game set in Los Santos, where players can explore the city, engage in missions, and cause chaos in a sprawling urban environment.",
+      "trailer": "https://www.youtube.com/embed/QkkoHAzjnUs?si=gW6c8M_atHEaCuXU"
+    },
+    {
+      "title": "Call of Duty Black Ops Cold War ",
+      "price": 59.99,
+      "releaseYear": 2022,
+      "genre": "First-Person Shooter",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/3/31/BOCW_Cover_Art.jpg",
+      "trailer": "https://www.youtube.com/embed/aTS9n_m7TW0?si=I2SNEj3DvSZSL5WU",
+      "description": "Black Ops Cold War is set during the early 80s of the Cold War. The campaign follows CIA operative Russel Adler as he pursues an alleged Soviet spy, whose goal is to subvert the United States and tilt the balance of power towards the Soviet Union.",
+      "id": "9"
+    },
+    {
+      "id": "13",
+      "title": "Horizon Zero Dawn",
+      "price": 49.99,
+      "releaseYear": 2017,
+      "genre": "Action RPG",
+      "poster": "https://m.media-amazon.com/images/I/71gCM8JhzdL.jpg",
+      "description": "An action RPG set in a post-apocalyptic world where players control Aloy, a hunter battling robotic creatures with her bow and spear.",
+      "trailer": "https://www.youtube.com/embed/u4-FCsiF5x4?si=k8Chg3s3OdkU_FUq"
+    },
+    {
+      "id": "14",
+      "title": "God of War",
+      "price": 59.99,
+      "releaseYear": 2018,
+      "genre": "Action-Adventure",
+      "poster": "https://media.gamestop.com/i/gamestop/god-of-warHeroTM/god-of-war.jpg?$POI$&w=768&aspect=.66:1",
+      "description": "Follow Kratos and his son Atreus as they embark on a journey through Norse mythology, battling gods and monsters in an intense, narrative-driven action game.",
+      "trailer": "https://www.youtube.com/embed/K0u_kAWLJOA?si=B5UbN_9m0ZJlsXXL"
+    },
+    {
+      "id": "15",
+      "title": "Dark Souls III",
+      "price": 39.99,
+      "releaseYear": 2016,
+      "genre": "Action RPG",
+      "poster": "https://www.europanet.com.br/image_gen/resizeimg.php?cod_produto=6000703",
+      "description": "A dark and challenging action RPG that tests players' skills through difficult combat, intricate level design, and a mysterious, atmospheric world.",
+      "trailer": "https://www.youtube.com/embed/_zDZYrIUgKE?si=1J5T7SBhNhkkWPcK"
+    },
+    {
+      "id": "17",
+      "title": "Assassin's Creed Valhalla",
+      "price": 59.99,
+      "releaseYear": 2020,
+      "genre": "Action RPG",
+      "poster": "https://www.rpgfan.com/wp-content/uploads/2020/07/Assassins-Creed-Valhalla-Cover-Art-003.jpg",
+      "description": "An action RPG set during the Viking era, where players control Eivor as they lead their people to conquer England and build a settlement.",
+      "trailer": "https://www.youtube.com/embed/ssrNcwxALS4?si=zdhI_qwZ2GKpn4QE"
+    },
+    {
+      "id": "18",
+      "title": "Doom Eternal",
+      "price": 59.99,
+      "releaseYear": 2020,
+      "genre": "First-Person Shooter",
+      "poster": "https://m.media-amazon.com/images/I/91Ma+D-vdCL._AC_UF1000,1000_QL80_.jpg",
+      "description": "A fast-paced, brutal first-person shooter where players take on the role of the Doom Slayer, battling hordes of demons in a quest to save Earth from Hell's forces.",
+      "trailer": "https://www.youtube.com/embed/_UuktemkCFI?si=kENWydCdyKZuzQo4"
+    },
+    {
+      "id": "19",
+      "title": "Fall Guys",
+      "price": 19.99,
+      "releaseYear": 2020,
+      "genre": "Party",
+      "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co75h8.jpg",
+      "description": "A massively multiplayer party game where up to 60 players compete in chaotic obstacle courses and mini-games, trying to be the last one standing.",
+      "trailer": "https://www.youtube.com/embed/AyADwdiW7rQ?si=PLX5p988nkFWDCfi"
+    },
+    {
+      "id": "20",
+      "title": "Resident Evil Village",
+      "price": 59.99,
+      "releaseYear": 2021,
+      "genre": "Survival Horror",
+      "poster": "https://img.redbull.com/images/c_crop,x_351,y_0,h_630,w_473/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2021/1/15/i4htflrfw8viwtzgfyni/resident-evil-village-cover",
+      "description": "A survival horror game where players take on the role of Ethan Winters, trying to survive a mysterious European village filled with terrifying creatures.",
+      "trailer": "https://www.youtube.com/embed/26tay8lMZW4?si=SmH3d33SjR0XUDaw"
+    },
+    {
+      "id": "21",
+      "title": "Call of Duty: Modern Warfare",
+      "price": 59.99,
+      "releaseYear": 2019,
+      "genre": "First-Person Shooter",
+      "poster": "https://cdn.mobygames.com/covers/11076997-call-of-duty-modern-warfare-xbox-one-front-cover.jpg",
+      "description": "A reboot of the iconic Modern Warfare series, featuring a gritty and realistic single-player campaign alongside intense multiplayer action and cooperative modes.",
+      "trailer": "https://www.youtube.com/embed/bH1lHCirCGI?si=ahigWFwdaKoXUW8i"
+    },
+    {
+      "id": "28bf",
+      "title": "Ready or Not",
+      "price": 29.99,
+      "releaseYear": 2021,
+      "genre": "Tactical Shooter",
+      "poster": "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/23D79Q/75010fbaec4849f6b9e9896eed23e806.jpg/f/ready-or-not.jpg",
+      "trailer": "https://www.youtube.com/embed/lLNoftAmKr0?si=rRqFDSC39Pu3LogT",
+      "description": "Ready or Not is an intense, tactical, first-person shooter that depicts a modern-day world in which SWAT police units are called to defuse hostile and confronting situations."
+    },
+    {
+      "id": "9d0f",
+      "title": "Squad",
+      "price": 29.99,
+      "releaseYear": 2015,
+      "genre": "Tactical Shooter",
+      "poster": "https://cdn2.steamgriddb.com/grid/ba9578436340b7bb205190560b5e0d94.jpg",
+      "trailer": "https://www.youtube.com/embed/UDnUD73gRXk?si=SYMwcVpVUu8RwNg5",
+      "description": "Squad is a tactical FPS that provides authentic combat experiences through teamwork, communication, and realistic combat."
+    }
+  ]
 }
